@@ -4,6 +4,7 @@ import setupStore from "./redux/setupStore"
 import "./main.scss"
 
 const store = setupStore()
+console.log(store.getState())
 
 function App() {
   return (
